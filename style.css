@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(180deg, rgba(42, 39, 39, 0.882), rgba(53, 48, 48, 0.828));
+    ;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background: #000;
+    color: #fff;
+    align-items: center;
+}
+
+.brand img {
+    width: 46px;
+    padding: 0 8px;
+
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+nav ul li {
+    padding: 0 12px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.effect {
+    cursor: pointer;
+}
+
+.effect:hover {
+    color: rgba(226, 224, 224, 0.842);
+}
+
+.container {
+    min-height: 75vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    padding: 34px;
+    border-radius: 28px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat, fixed;
+    background-size: cover;
+}
+
+.bottom {
+    background-color: rgba(7, 7, 7, 0.951);
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 16px;
+
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.songItemContainer {
+    margin-top: 60px;
+}
+
+.songItem {
+    display: flex;
+    height: 54px;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    border-radius: 34px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.songItem img {
+    width: 43px;
+    margin: 0px 23px;
+    border-radius: 50%;
+}
+
+.timestamp {
+    margin: 0 24px;
+    font-size: 18px;
+    font-weight: 400;
+   }
+
+.timestamp i {
+    cursor: pointer;
+
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.volumwProgress {
+    display: flex;
+    width: 10%;
+    
+    margin-left: 1000px;
+
+}
+
+#vol {
+    color: #fff;
+}
